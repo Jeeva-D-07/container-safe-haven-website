@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Database, Server, HardDriveDownload } from 'lucide-react';
+import { Database, Server, HardDriveDownload, CloudUpload } from 'lucide-react';
 
 const Hero = () => {
   return (
