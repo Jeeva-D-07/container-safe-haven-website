@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { DatabaseBackup, HardDriveUpload, Server, ServerCog, ArchiveRestore, CloudDownload } from 'lucide-react';
@@ -44,6 +45,7 @@ const Services = () => {
           <p className="text-gray-600 text-lg">
             Our specialized backup and recovery solutions are designed specifically for containerized environments, providing resilience against data loss and service disruptions.
           </p>
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
